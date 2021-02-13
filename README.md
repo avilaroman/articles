@@ -1,7 +1,7 @@
 # Artículos
 
-[![Build Status](https://drone.depado.eu/api/badges/Depado/smallblog/status.svg)](https://drone.depado.eu/Depado/smallblog)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Depado/articles/blob/master/LICENSE)
+[![Estado de Progreso](https://)](https://)
+[![Proyecto hosteado localmente](https://)](https://)
 
 
 Este repositorio contiene los artículos que yo escribí y que son publicados en mi blog personal. 
