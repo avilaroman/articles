@@ -1,6 +1,6 @@
 package cocktail
 
-// FullDrink is a complete description and recipe of a single Drink
+// BebidaCompleta! es una completa descripción y recipe de una SOLA Bebida ESTRUCTURA
 type FullDrink struct {
 	IDDrink         string      `json:"idDrink"`
 	StrDrink        string      `json:"strDrink"`
@@ -44,19 +44,19 @@ type FullDrink struct {
 	DateModified    string      `json:"dateModified"`
 }
 
-// FullDrinkList contains a slice of FullDrink
+// BebidaCompletaLista contiene una de BebidaCompleta
 type FullDrinkList struct {
 	Drinks []*FullDrink `json:"drinks"`
 }
 
-// Drink is a minimal representation of a FullDrink
+// Bebida as una representación mínima de una BebidaCompleta
 type Drink struct {
 	Name     string `json:"strDrink"`
 	Thumnail string `json:"strDrinkThumb"`
 	ID       string `json:"idDrink"`
 }
 
-// DrinkList contains a slice of Drink
+// DrinkList contiene una lista de Bebidas
 type DrinkList struct {
 	Drinks []*Drink `json:"drinks"`
 }
